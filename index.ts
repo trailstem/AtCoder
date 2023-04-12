@@ -5,6 +5,7 @@ const targetArray = inputText.split("");
 
 let result = true;
 
+
 for (let i = 0; i < targetArray.length; i++) {
   let target = targetArray[i];
   let count = (inputText.match(new RegExp(target, "g")) || []).length;
